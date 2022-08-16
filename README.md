@@ -2,6 +2,8 @@
 
 ## How to setup 
 
+#### Note : Laravel version-8 and require php version is 8.0^
+
 ### Step 1 : Clone the git url
 
 ### Step 2 : Install the composer dependency
@@ -14,6 +16,7 @@
 ### Step 4 : Copy the environment file
 Copy the `.env.example` file and rename it to `.env`. Set the database connection details into it.
 After that to clear the cache run below command
+`php artisan key:generate`
 `php artisan cache:clear`
 `php artisan config:cache`
 
